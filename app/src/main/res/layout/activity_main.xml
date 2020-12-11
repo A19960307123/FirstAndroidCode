@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/btn_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btn_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="ImageView" />
+    <Button
+        android:id="@+id/btn_ListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="ListView" />
+    <Button
+        android:id="@+id/btn_GridView"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="GridView" />
+
+    <Button
+        android:id="@+id/btn_RecyclerView"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView" />
+    <Button
+        android:id="@+id/btn_Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Fragment" />
+    <Button
+        android:id="@+id/btn_Broadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Broadcast" />
+    <Button
+        android:id="@+id/btn_IO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="IO" />
+    <Button
+        android:id="@+id/btn_Web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="网络编程" />
+    <Button
+        android:id="@+id/btn_Thread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="多线程Service" />
+    <Button
+        android:id="@+id/btn_toMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="地图服务" />
+
+
+</LinearLayout>

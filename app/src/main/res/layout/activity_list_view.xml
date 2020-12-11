@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListViewActivity">
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/app_name"-->
+    <!--        />-->
+
+    <ListView
+        android:id="@+id/lv_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
+<!--<ListView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    tools:listheader="@layout/demo_header"-->
+<!--    tools:listitem="@layout/demo_item"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_width="match_parent"/>-->
